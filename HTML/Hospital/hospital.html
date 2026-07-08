@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionários</title>
+</head>
+<body>
+    <h2>Cadastro de Funcionários</h2>
+    <form method="get">
+
+        <label for="nomeCompleto">Nome Completo:</label><br>
+        <input name="nomeCompleto" type="text" required><br><br>
+
+        <label for="emailFuncionario">Email do Funcionário:</label><br>
+        <input name="emailfuncionario" type="email" placeholder="funcionario@email.com"><br><br>
+
+        <label for="teleFuncionario">Telefone do Funcionário:</label><br>
+        <input name="telefuncionario" type="text" placeholder="(XX) XXXX-XXXX" required><br><br>
+
+        <label for="cargoFuncionario">Cargo:</label><br>
+        <input name="cargoFuncionario" type="text" required><br><br>
+
+        <label for="dataNascimentoFuncionario">Data de Nascimento:</label><br>
+        <input name="dataNascimentoFuncionario" type="date"><br><br>
+
+        <label for="dataAdmissao">Data de Admissão</label><br>
+        <input name="dataAdmissao" type="date"><br><br>
+
+        <label for="sexoPessoa">Sexo:</label><br>
+        <input name="sexoPessoa" type="radio" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+        <input name="sexoPessoa" type="radio" value="Feminino">
+        <label for="Feminino">Feminino</label><br>
+        <input name="sexoPessoa" type="radio" value="Outros">
+        <label for="Outros">Outro</label><br>
+        <br>
+
+        <label for="salarioFuncionario">Salário do Funcionário</label><br>
+        <input name="nomeCompleto" type="text" placeholder="R$" required><br><br>
+
+        <label for="curriculo">Currículo:</label><br>
+        <input name="btCurriculo" type="file"> <br><br>
+
+        <label for="fotoCracha">Foto Crachá:</label><br>
+        <input name="btCracha" type="file"> <br><br>
+
+        <label for="enderecoPessoa">Endereço do Funcionário:</label><br>
+        <textarea name="enderecoPessoa" cols="30" row="4"></textarea><br><br>
+
+        <input name="btPessoa" type="submit" value="Cadastrar Funcionário"><br><br>
+
+    </form>
+</body>
+</html>
